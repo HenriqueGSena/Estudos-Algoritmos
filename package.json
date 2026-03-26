@@ -1,0 +1,28 @@
+{
+  "name": "estudos-algoritmos",
+  "version": "1.0.0",
+  "description": "Objetivo e usar repositório como apoio ao livro entendendo algoritmos de forma prática cada capitulo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenriqueGSena/Estudos-Algoritmos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HenriqueGSena/Estudos-Algoritmos/issues"
+  },
+  "homepage": "https://github.com/HenriqueGSena/Estudos-Algoritmos#readme",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.9.0"
+  }
+}
