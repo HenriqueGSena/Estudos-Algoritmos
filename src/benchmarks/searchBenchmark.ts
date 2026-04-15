@@ -1,5 +1,6 @@
 import { gerarAgenda } from '../data/generateAgenda';
 import { linearSearch } from '../algorithms/search/linearSearch';
+import { binarySearch } from '../algorithms/search/binarySearch';
 import { medirTempo } from '../utils/timer';
 
 // const TAMANHO = 1000;
@@ -12,3 +13,8 @@ const alvo = agenda[TAMANHO - 1].nome;
 medirTempo('Linear Search O(n)', () => {
     linearSearch(alvo, agenda);
 });
+
+// O(log n)
+medirTempo('Busca Binaria O(log n)', () => {
+    binarySearch(agenda, alvo);
+})
